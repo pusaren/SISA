@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#228B22"
+    android:layout_height="match_parent"
+    tools:context=".register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="223dp"
+            android:layout_height="195dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:padding="10px"
+            android:src="@drawable/sisa"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="271dp"
+                android:layout_height="58dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="DEAN"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/codl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cod"
+                android:layout_width="279dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="C.O.D"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp">
+            <TextView
+                android:id="@+id/students"
+                android:layout_width="259dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="STUDENTS"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:id="@+id/well"
+            android:layout_width="376dp"
+            android:layout_height="78dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="WELCOME"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+    </LinearLayout>
+</ScrollView>

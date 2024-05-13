@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".schools">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#228B22"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="223dp"
+            android:layout_height="195dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:padding="10px"
+            android:src="@drawable/sisa"/>
+
+        <LinearLayout
+            android:id="@+id/resident"
+
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="308dp"
+                android:layout_height="62dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="SCHOOLS"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/scit"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="66dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:src="@drawable/scit" />
+
+            <TextView
+                android:layout_width="308dp"
+                android:layout_height="62dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="SCIT"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sohes"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal" >
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:layout_height="66dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/healing" />
+
+            <TextView
+                android:layout_width="308dp"
+                android:layout_height="62dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="SCHOOL OF HEALTH"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sosci"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="66dp"
+                android:background="@color/white"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/schools" />
+
+            <TextView
+                android:layout_width="308dp"
+                android:layout_height="62dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="SOSCI"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/sobe"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="66dp"
+                android:background="@color/white"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/business" />
+
+            <TextView
+                android:layout_width="308dp"
+                android:layout_height="62dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="SOBE"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/sess"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="66dp"
+                android:background="@color/white"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/science" />
+
+            <TextView
+                android:layout_width="308dp"
+                android:layout_height="62dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="SESS"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

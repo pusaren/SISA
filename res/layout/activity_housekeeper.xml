@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#228B22"
+    android:layout_height="match_parent"
+    tools:context=".housekeeper">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="223dp"
+            android:layout_height="195dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:padding="10px"
+            android:src="@drawable/sisa"/>
+        <ImageView
+            android:id="@+id/call"
+            android:layout_width="94dp"
+            android:layout_height="70dp"
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:padding="10px"
+            android:src="@drawable/call"
+            app:tint="#228B22" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="Notification"
+            android:textSize="30dp" />
+        <EditText
+            android:id="@+id/nitification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/white"
+            android:gravity="center"
+            android:hint="notify" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="Feedback"
+            android:textSize="30dp" />
+        <EditText
+            android:id="@+id/feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/white"
+            android:gravity="center"
+            android:hint="give feedback" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/refer"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:text="REFER" />
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:text="SUBMIT" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
+

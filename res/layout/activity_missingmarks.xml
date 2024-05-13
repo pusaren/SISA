@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#228B22"
+    android:layout_height="match_parent"
+    tools:context=".student">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="98dp"
+        android:orientation="vertical">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:id="@+id/image"
+               android:layout_width="234dp"
+               android:layout_height="174dp"
+               android:layout_marginStart="20dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginEnd="20dp"
+               android:src="@drawable/sisa" />
+
+           <ImageButton
+               android:id="@+id/chatm"
+               android:layout_width="88dp"
+               android:layout_height="68dp"
+               android:layout_marginTop="100dp"
+               android:background="#228B22"
+               android:src="@drawable/chat"
+               android:textAlignment="textStart" />
+       </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignBottom="@id/image"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="MISSING MARKS INVESTIGATION FORM"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/school"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:drawableStart="@drawable/schools"
+            android:hint="school"
+            android:textColorHint="@color/white"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/white" />
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/department"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:hint="department"
+            android:textColorHint="@color/white"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/department"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/white" />
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/studentname"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="student name"
+            android:textColorHint="@color/white"
+            android:drawableStart="@drawable/username"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/white" />
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/regno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:drawableStart="@drawable/regno"
+            android:hint="Registration number"
+            android:textColorHint="@color/white"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/white" />
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:drawableStart="@drawable/call"
+            android:hint="phone number"
+            android:textColorHint="@color/white"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/white" />
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/unitcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:drawableStart="@drawable/units"
+            android:hint="UNIT CODE"
+            android:textColorHint="@color/white"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/white" />
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/cat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="CAT"
+                    />
+                <RadioButton
+                    android:id="@+id/main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="MAIN"
+                    />
+                <RadioButton
+                    android:id="@+id/special"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="SPECIAL"
+                    />
+                <RadioButton
+                    android:id="@+id/sup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="SUP"
+                    />
+                <RadioButton
+                    android:id="@+id/retake"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="retake"
+                    />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+        <Button
+            android:id="@+id/submitmis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+    </ScrollView>
