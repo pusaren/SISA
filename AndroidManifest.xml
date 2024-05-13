@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission-sdk-23 android:name="android.permission.SEND_SMS" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/sisa"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/sisa"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SISA"
+        tools:targetApi="31">
+        <activity
+            android:name=".hostels"
+            android:exported="false" />
+        <activity
+            android:name=".codre"
+            android:exported="false" />
+        <activity
+            android:name=".ADMIN"
+            android:exported="false" />
+        <activity
+            android:name=".COD"
+            android:exported="false" />
+        <activity
+            android:name=".chatmisre"
+            android:exported="false" />
+        <activity
+            android:name=".chatmis"
+            android:exported="false" />
+        <activity
+            android:name=".missingmarks"
+            android:exported="false" />
+        <activity
+            android:name=".chats"
+            android:exported="false" />
+        <activity
+            android:name=".query"
+            android:exported="false" />
+        <activity
+            android:name=".hostel"
+            android:exported="false" />
+        <activity
+            android:name=".nonresident"
+            android:exported="false" />
+        <activity
+            android:name=".studentcheck"
+            android:exported="false" />
+        <activity
+            android:name=".finance"
+            android:exported="false" />
+        <activity
+            android:name=".sohes"
+            android:exported="false" />
+        <activity
+            android:name=".scit"
+            android:exported="false" />
+        <activity
+            android:name=".student"
+            android:exported="false" />
+        <activity
+            android:name=".housekeeper"
+            android:exported="false" />
+        <activity
+            android:name=".schools"
+            android:exported="false" />
+        <activity
+            android:name=".register"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
